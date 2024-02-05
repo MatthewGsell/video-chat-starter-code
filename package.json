@@ -1,0 +1,40 @@
+{
+  "name": "voice-chat-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "agora-rtc-sdk-ng": "^4.20.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.43",
+    "@types/react-dom": "^18.2.17",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.55.0",
+    "eslint-plugin-react": "^7.33.2",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.5",
+    "vite": "^5.0.8",
+    "agora-extension-ai-denoiser": "^1.1.0",
+    "agora-extension-spatial-audio": "1.0.0-beta1",
+    "agora-extension-virtual-background": "^1.1.3",
+    "agora-rtc-sdk-ng": "^4.18.2",
+    "cors-anywhere": "^0.4.4",
+    "livereload-js": "^4.0.1",
+    "pnpm": "^8.7.0",
+    "webrtc-adapter": "^8.2.3",
+    "appId": "e03dd83b5d834c10995eb1939176c722",
+    "rtcToken": "007eJxTYGBY6brtkeo3nrs3582v9yvU9egM/qHsX/fYW8Ts2yUzz4MKDKkGxikpFsZJpkDCJNnQwNLSNDXJ0NLY0tDcLNncyOjRiwOpDYGMDCqXRVkYGSAQxOdmKEktLknOSMzLS81hYAAAPAMiXA==",
+    "channelName": "testchannel"
+
+
+  }
+}
