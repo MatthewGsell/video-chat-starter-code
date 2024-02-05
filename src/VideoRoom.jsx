@@ -36,7 +36,8 @@ function VideoRoom () {
             const [audioTrack, videoTrack] = tracks
             setUsers([...users, {
                 uid: uid,
-                videoTrack: videoTrack
+                videoTrack: videoTrack,
+                audioTrack: audioTrack,
             }])
             client.publish(tracks)
         } )
